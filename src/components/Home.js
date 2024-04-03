@@ -184,7 +184,7 @@ export default function Home() {
               target='_blank'
               className="rounded-sm hover:bg-[#FCDD09]  px-3.5 py-3.5 lg:py-4  border-2 border-inside border-[#FCDD09]  text-center lg:text-xs text-xs font-semibold text-white shadow-sm   hover:text-zinc-950 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
-             INTEREST FORM
+             INTEREST FORM     
             </a>
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSd1TQP1Yant_6o30MoEjhuKnXtkGWflcgOqwpd3So7h1-aMgw/viewform"
