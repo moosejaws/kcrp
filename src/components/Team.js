@@ -18,6 +18,24 @@ const people = [
         linkedinUrl: '#',
         bio: 'Angela Moorer is a communications consultant and multimedia storyteller based out of Seattle, Washington. With the intention to inspire systemic change, her work strives to center voices of institutionally underserved and historically marginalized communities.  ',
         bio2: 'Angela Moorer is a digital media storyteller. She produces content and experiences with a trauma-informed, culturally-sensitive lens. Using an empathetic, creative and authentic approach, Angela can easily find and extract the most compelling angle of a story and strategically create content and execute marketing tactics that amplify it.'
+      },
+      {
+        name: 'Robyn N. Thompson',
+        role: 'role here',
+        imageUrl:
+          'https://images.squarespace-cdn.com/content/v1/641915c2c0206324a478ab39/2b7ddf34-8b6b-4b1b-9116-045fdfb24a97/angela-moorer.jpg?format=2500w',
+        xUrl: '#',
+        linkedinUrl: '#',
+        bio: 'Angela Moorer is a communications consultant and multimedia storyteller based out of Seattle, Washington. With the intention to inspire systemic change, her work strives to center voices of institutionally underserved and historically marginalized communities.  ',
+      },
+      {
+        name: 'Reina True',
+        role: 'Web Developer & Graphic Designer',
+        imageUrl:
+          'https://images.squarespace-cdn.com/content/v1/641915c2c0206324a478ab39/2b7ddf34-8b6b-4b1b-9116-045fdfb24a97/angela-moorer.jpg?format=2500w',
+        xUrl: '#',
+        linkedinUrl: '#',
+        bio: 'Angela Moorer is a communications consultant and multimedia storyteller based out of Seattle, Washington. With the intention to inspire systemic change, her work strives to center voices of institutionally underserved and historically marginalized communities.  ',
       }
 
     // More people...
@@ -36,7 +54,7 @@ const people = [
             className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-6 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8"
           >
             {people.map((person) => (
-              <li key={person.name} className="rounded-2xl text-xl border-2 border-green-600 px-8 py-10">
+              <li key={person.name} className="rounded-2xl text-xl px-8 py-10">
                 <img className="mx-auto h-48 w-48  rounded-full md:h-56 md:w-56" src={person.imageUrl} alt="" />
                 <h1 className="mt-6 text-base font-semibold leading-7 tracking-normal text-white">{person.name}</h1>
                 <p className="text-sm leading-6 text-green-600">{person.role}</p>

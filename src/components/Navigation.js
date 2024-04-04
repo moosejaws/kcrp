@@ -19,15 +19,22 @@ function classNames(...classes) {
 export default function Navigation() {
   return (
     <>
-      <nav class="bg-[#FCDD09]  border-bottom border-yellow-500  ">
+      <nav class="bg-[#FCDD09] border-bottom border-yellow-500  ">
       <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div class="relative flex h-16 items-center justify-between">
       
           <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
             <div class="flex flex-shrink-0 items-center">
-                <h1 class="text-zinc-950 text-2xl font-bold">KCRP</h1>
+                <h1 id="lexend-wordnav" class="lexend-wordnav text-zinc-950 text-2xl font-bold ">KCRP</h1>
             </div>
 
+            <div class="hidden sm:ml-6 sm:block">
+          <div class="flex space-x-4">
+            <a href="/" class="text-zinc-950 px-3 py-2 border-2  border-[#FCDD09]  hover:border-red-600  rounded-sm text-sm font-medium" aria-current="page">Home</a>
+            <a href="/about" class="text-zinc-950 border-2 border-[#FCDD09]  hover:border-red-600 rounded-sm px-3 py-2 text-sm font-medium">About the Project</a>
+            <a href="/contact" class="text-zinc-950 border-2 border-[#FCDD09]  hover:border-red-600  rounded-sm px-3 py-2 text-sm font-medium">Contact</a>
+          </div>
+        </div>
           
           </div>
       
@@ -121,3 +128,15 @@ export default function Navigation() {
   </div>
 </nav>
  */
+
+
+/* RESOURCES WHEN YOURE READY */
+/*
+
+
+            <a href="/resources" class="text-zinc-950 border-2  border-[#FCDD09] hover:border-red-600  rounded-sm px-3 py-2 text-sm font-medium">Resources</a>
+
+
+
+
+            */

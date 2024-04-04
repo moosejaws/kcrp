@@ -45,7 +45,7 @@ export default function About() {
   return (
     <div>
          <div className="bg-zinc-950 px-6 py-24 sm:py-32 lg:px-8">
-                <div className="mx-auto max-w-5xl text-center">
+                <div className="mx-auto max-w-4xl text-center">
                   <h2 className="text-4xl  text-white sm:text-6xl">About KCRP</h2>
                   <p  className="mt-24 text-lg leading-8 text-white">The King County Reparations Project takes viewers on an emotional journey through the Central District and South End, once the pulsating core of African American life in the Pacific Northwest, now a testament to the scars of urban upheaval. Produced at Cascade PBS, this documentary is the first chapter in a series dedicated to capturing the stories of Black individuals who have seen their homes, businesses, and cultural landmarks vanish.</p>
 
@@ -71,7 +71,6 @@ export default function About() {
                                 
                                   {feature.name}
                                 </dt>
-                                <dd className="mt-2 text-base leading-7 text-gray-400">{feature.description}</dd>
                               </div>
                             ))}
                           </dl>

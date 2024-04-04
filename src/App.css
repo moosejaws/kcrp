@@ -28,6 +28,13 @@ iframe {
   }
 }
 
+nav {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
 h1, #title {
   font-family: "Lexend", sans-serif;
   font-optical-sizing: auto;
@@ -50,6 +57,13 @@ p {
   font-family: "Lexend", sans-serif;
   font-optical-sizing: auto;
   font-weight: normal;
+  font-style: normal;
+}
+
+#lexend-wordnav {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
   font-style: normal;
 }
 

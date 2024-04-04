@@ -141,6 +141,9 @@ export default function Home() {
               About the project          </p>
           <p  className="mt-8 mb-8 text-lg leading-8 text-white bg-red">The King County Reparations Project takes viewers on an emotional journey through the Central District and South End, once the pulsating core of African American life in the Pacific Northwest, now a testament to the scars of urban upheaval. Produced at Cascade PBS, this documentary is the first chapter in a series dedicated to capturing the stories of Black individuals who have seen their homes, businesses, and cultural landmarks vanish.</p>
        
+          <a href="/about" className="text-sm  font-bold leading-6 text-red-600 hover:text-green-600 ">
+                    Read more <span aria-hidden="true">→</span>
+                  </a>
       
         </div>
         <div class='justify-center text-center '>
@@ -149,7 +152,7 @@ export default function Home() {
         </div>
 
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-22 lg:max-w-4xl">
-        <p className=" mb-4 text-lg font-bold leading-8 text-[#FCDD09] ">
+        <p className=" mb-4 text-2xl font-semibold  leading-8 text-[#FCDD09] ">
           Scope of Project</p>
         <p className=" mb-12 text-lg font-bold leading-8 text-white">
           The project will focus on five main categories resulting in removal during an approximate timeline starting in the 1960’s until present day.</p>
