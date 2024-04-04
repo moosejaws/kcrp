@@ -74,25 +74,25 @@ export default function Home() {
 
         <main className="mx-auto mt-16 max-w-7xl px-4 px-6 sm:mt-16 lg:mt-32">
           <div className="lg:grid lg:grid-cols-12 lg:gap-28">
-            <div className="sm:text-center  md:mx-auto md:max-w-2xl lg:col-span-6 lg:text-left pt-0 grid ">
+            <div className="sm:text-center  md:mx-auto md:max-w-2xl lg:col-span-5 lg:text-left pt-0 grid ">
                
-                <div className=" text-center sm:m-auto font-bold tracking-tight lg:text-5xl text-4xl lg:mb-0 mb-4   grid lg:grid-cols-2 sm:grid-cols-0 gap-x-4 ">
-                 <img class='mr-12 w-auto content-start lg:align-left sm:align-center sm:m-auto  m-auto justify-center align-center  ' src={logo} />
+                <div className=" text-center sm:m-auto m-autofont-bold tracking-tight lg:text-4xl text-4xl lg:mb-0 mb-4  w-auto grid lg:grid-cols-2 sm:grid-cols-0 gap-x- ">
+                 <img id="logoimage" class=' lg:mt-3 lg:align-left md:align-center justify-center text-center m-auto' src={logo} />
                  <div id="title" className=" text-white tracking-wider lg:grid-cols-2 grid-cols-2 sm:grid-cols-0 ">
 
-                  <h1 class='mt-6 lg:text-left leading-tight'>KING COUNTY REPARATIONS PROJECT</h1>
+                  <h1 class='mt-6 lg:text-left w-full leading-tight'>KING COUNTY REPARATIONS PROJECT</h1>
                   </div>
                   </div> 
                  
                  
-              <p className="mt-0 ml-2 text-base text-white sm:mt-4 sm:text-xl lg:text-lg xl:text-xl">
+              <p className="mt-0 ml-4 text-base text-white sm:mt-4 sm:text-xl lg:text-lg xl:text-xl">
               Telling the story of the displacement of African Americans in King County, WA for the purpose of documenting their pain and their suffering in order to establish a case for reparations. </p>
               <div className="mt-8 sm:mx-auto sm:max-w-lg sm:text-center lg:mx-0 lg:text-left">
-              <div className="grid grid-cols-0 lg:grid-cols-3 mt-10 flex items-center lg:justify-left  gap-x-6 gap-y-6 justify-center">
+              <div className="grid grid-cols-0 lg:grid-cols-3  lg:ml-4 flex items-center lg:justify-left  gap-x-6 gap-y-6 justify-center">
             <a
               href="https://forms.gle/DpUVMJh9qgK9pLBr9"
               target='_blank'
-              className="rounded-sm hover:bg-[#FCDD09]  px-3.5 py-3.5 lg:py-4  border-2 border-inside border-[#FCDD09]  text-center lg:text-xs text-xs font-semibold text-white shadow-sm   hover:text-zinc-950 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              className="rounded-sm hover:bg-[#FCDD09]  px-3.5 py-3.5 lg:py-2  border-2 border-inside border-[#FCDD09]  text-center lg:text-xs text-xs font-semibold text-white shadow-sm   hover:text-zinc-950 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
              INTEREST FORM
             </a>
@@ -106,7 +106,7 @@ export default function Home() {
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSd1TQP1Yant_6o30MoEjhuKnXtkGWflcgOqwpd3So7h1-aMgw/viewform"
               target='_blank'
-              className=" text-center rounded-sm bg-zinc-950 px-3.5 py-3.5 lg:py-4 lg:py-2 border-2 border-inside border-green-600 lg:text-xs text-xs font-semibold text-white shadow-sm hover:bg-green-600 transition duration-150 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              className=" text-center rounded-sm bg-zinc-950 px-3.5 py-3.5 lg:py-2 lg:py-2 border-2 border-inside border-green-600 lg:text-xs text-xs font-semibold text-white shadow-sm hover:bg-green-600 transition duration-150 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
              MAKE A DONATION
             </a>

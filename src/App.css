@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 
+
+
+
 #vid {
 
 }
@@ -17,6 +20,11 @@ iframe {
   iframe {
      height:280px;
      width: 400px;
+  }
+
+  #logoimage {
+    height: 5.5em;
+    
   }
 }
 
