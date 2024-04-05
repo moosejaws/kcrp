@@ -16,7 +16,7 @@ export default function Contact () {
 
                   <div class='w-full    align-center justify-center vertical lg:gap-2 mt-12'>
                       <div className='grid grid-cols-0 mt-0' >      <p class='text-white text-center font-regular
-                       text-sm lg:text-md text-center m-auto '>If you or your family were affected by home or business loss in the Central District, Seattle or other areas of King County, we would like to document your story.</p>
+                       text-sm lg:text-lg text-center m-auto '>If you or your family were affected by home or business loss in the Central District, Seattle or other areas of King County, we would like to document your story.</p>
                 </div>
                 <div className="grid grid-cols-0 lg:grid-cols-3 mt-10 flex items-center lg:justify-left  gap-x-6 gap-y-6 justify-center">
                   <a
