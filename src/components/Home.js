@@ -154,7 +154,7 @@ export default function Home() {
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-22 lg:max-w-4xl">
         <p className=" mb-4 text-2xl font-semibold  leading-8 text-[#FCDD09] ">
           Scope of Project</p>
-        <p className=" mb-12 text-lg font-bold leading-8 text-white">
+        <p className=" mb-12 text-lg font-normal leading-8 text-white">
           The project will focus on five main categories resulting in removal during an approximate timeline starting in the 1960’s until present day.</p>
           <dl className="grid max-w-xl grid-cols-1  m-auto gap-x-8 gap-y-10 lg:max-w-none sm: justify-centerzm-auto lg:grid-cols-2 lg:gap-y-16">
             {features.map((feature) => (

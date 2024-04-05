@@ -60,7 +60,7 @@ export default function About() {
                 </div>
                   <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-22 lg:max-w-4xl">
                     
-                        <p className=" mb-4 text-3xl font-semibold leading-8 text-white">
+                        <p className=" mb-4 text-3xl text-[#FCDD09]  font-semibold leading-8 ">
                           Scope of Project</p>
                         <p className=" mb-12 text-lg leading-8 text-white">
                           The project will focus on five main categories resulting in removal during an approximate timeline starting in the 1960’s until present day.</p>
