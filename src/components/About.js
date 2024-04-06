@@ -44,7 +44,7 @@ const features = [
 export default function About() {
   return (
     <div>
-         <div className="bg-zinc-950 px-6 py-24 sm:py-32 lg:px-8">
+         <div className="bg-zinc-950 px-5 py-24 sm:py-32 lg:px-8">
                 <div className="mx-auto max-w-4xl text-center">
                   <h2 className="text-4xl  text-white sm:text-6xl">About KCRP</h2>
                   <p  className="mt-24 text-lg leading-8 text-white">The King County Reparations Project takes viewers on an emotional journey through the Central District and South End, once the pulsating core of African American life in the Pacific Northwest, now a testament to the scars of urban upheaval. Produced at Cascade PBS, this documentary is the first chapter in a series dedicated to capturing the stories of Black individuals who have seen their homes, businesses, and cultural landmarks vanish.</p>
@@ -58,11 +58,11 @@ export default function About() {
 
 
                 </div>
-                  <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-22 lg:max-w-4xl">
+                  <div className="mx-auto mt-16 max-w-4xl sm:mt-20 lg:mt-22 lg:max-w-4xl">
                     
                         <p className=" mb-4 text-3xl text-[#FCDD09]  font-semibold leading-8 ">
                           Scope of Project</p>
-                        <p className=" mb-12 text-lg leading-8 text-white">
+                        <p className=" mb-12 text-lg leading-8 text-white ">
                           The project will focus on five main categories resulting in removal during an approximate timeline starting in the 1960’s until present day.</p>
                           <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none sm: justify-centerzm-auto lg:grid-cols-2 lg:gap-y-16">
                             {features.map((feature) => (
@@ -77,10 +77,10 @@ export default function About() {
                           <div class='justify-center text-center '>
 
                            </div>
-                          <p  className="mt-20 text-lg max-w-lg text-center m-auto leading-8 text-md bg-red-600 text-white bold">Important Notes:</p>
+                          <p  className="mt-20 text-lg max-w-4xl text-center m-auto leading-8 text-md bg-red-600 text-white bold">Important Notes:</p>
                               <ul className='text-white '>
-                              <li className="white p-4">*This project is dealing with only a segment of the legacy & struggle of various movements and claims to reparations; this one centers on housing inequality in King County from around the 1950s to present day.</li>
-                              <li className="white p-4">*We recognize the need for local and national dialogue and intend that this project will serve larger plans of action to cover what’s owed in totality of the effects of slavery, black codes, jim crow, mass incarceration.</li>
+                              <li className="white p-2 mt-6 max-w-4xl">*This project is dealing with only a segment of the legacy & struggle of various movements and claims to reparations; this one centers on housing inequality in King County from around the 1950s to present day.</li>
+                              <li className="white p-2 max-w-4xl">*We recognize the need for local and national dialogue and intend that this project will serve larger plans of action to cover what’s owed in totality of the effects of slavery, black codes, jim crow, mass incarceration.</li>
 
                               </ul>
                         </div>
