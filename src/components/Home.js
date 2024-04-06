@@ -117,7 +117,7 @@ export default function Home() {
           </div>                
               </div>
             </div>
-            <div className="relative mt-12 sm:mx-auto sm:max-w-lg lg:col-span-6 lg:mx-0 lg:mt-0 lg:flex lg:max-w-none lg:items-center mb-10">
+            <div className="relative mt-12 sm:mx-auto sm:max-w-lg lg:col-span-6 lg:mx-0 lg:mt-0 lg:flex lg:max-w-none lg:items-center mb-40">
               <svg
                 className="absolute left-1/2 top-0 origin-top -translate-x-1/2 -translate-y-8 scale-75 transform sm:scale-100 lg:hidden"
                 width={640}
@@ -132,7 +132,7 @@ export default function Home() {
               <div className="relative mx-auto w-full rounded-lg lg:max-w-md ">
                
                   <span className="sr-only">Watch our video to learn more</span>
-                  <iframe id="vid" class='lg:mb-24   m-auto  object-fit' src="https://www.youtube.com/embed/2e5BQZ5ChQw?si=U3rKLc6yuEx7-_V-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  <iframe id="vid" class='m-auto  object-fit' src="https://www.youtube.com/embed/2e5BQZ5ChQw?si=U3rKLc6yuEx7-_V-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
               </div>
             </div>
           </div>
