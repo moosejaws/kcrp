@@ -3,50 +3,52 @@ import { Popover, Transition } from '@headlessui/react'
 import { ArrowPathIcon, CloudArrowUpIcon, FingerPrintIcon, LockClosedIcon } from '@heroicons/react/24/outline'
 import logo from '../logo.webp'
 import square from '../square.png'
+import About from './About'
+
+
+const features = [
+    
+    
+    
+  {
+    name: '1930s - 1960 Redlining, bank redlining',
+    link:
+      'https://youtu.be/7z7UyAyMveY?si=blieydWeWgypQB-M',
+    icon: CloudArrowUpIcon,
+  },
+  {
+    name: ' 1990’s - 2000’s Subprime Lending late',
+    link:
+      'https://youtu.be/9vU5bpM-IA0?si=Mz4YLYrtMdMM7A_d',
+    icon: LockClosedIcon,
+  },
+  {
+    name: '1980s - early 2000s Imminent Domain “Urban Renewal-Teen Dance Ordinance”',
+    link:
+      'https://youtu.be/OdZNKr_KSmI?si=2oDfmD3wUeaS11XH.',
+    icon: ArrowPathIcon,
+  },
+  {
+    name: 'Weed & Seed - Abatement Laws',
+    link:
+      'https://youtu.be/gHIXFvC4A8A?si=MO3o-Zp2C70GnY_D',
+    icon: FingerPrintIcon,
+  },
+  {
+    name: 'Regressive Tax Policy in State of WA  ',
+    link:
+      'https://youtu.be/x-x7E4aLr4w?si=a_FsHBNM7qcey5Y5',
+    icon: FingerPrintIcon,
+  },
+]
+
 
 
 
 
 export default function Home() {
 
-  const features = [
-    
-    
-    
-    {
-      name: '1930s - 1960 Redlining, bank redlining',
-      description:
-        'Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.',
-      icon: CloudArrowUpIcon,
-    },
-    {
-      name: ' 1990’s - 2000’s Subprime Lending late',
-      description:
-        'Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.',
-      icon: LockClosedIcon,
-    },
-    {
-      name: '1980s - early 2000s Imminent Domain “Urban Renewal-Teen Dance Ordinance”',
-      description:
-        'Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.',
-      icon: ArrowPathIcon,
-    },
-    {
-      name: 'Weed & Seed - Abatement Laws',
-      description:
-        'Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.',
-      icon: FingerPrintIcon,
-    },
-    {
-      name: 'Regressive Tax Policy in State of WA  ',
-      description:
-        'Results in an unfair burden on the poor & people of moderate income who can’t keep their property due to rising property taxes    ',
-      icon: FingerPrintIcon,
-    },
-  ]
-
-
-
+  
 
 
   return (
@@ -72,8 +74,8 @@ export default function Home() {
       <div className="relative pb-16 pt-0 sm:pb-24 lg:pb-20">
   
 
-        <main className="mx-auto mt-16 max-w-7xl px-4 px-6 sm:mt-16 lg:mt-32">
-          <div className="lg:grid lg:grid-cols-12 lg:gap-28">
+        <main className="mx-auto mt-16 max-w-7xl px-2 sm:mt-16 lg:mt-32">
+          <div className="lg:grid lg:grid-cols-12 lg:gap-28 lg:ml-4">
             <div className="sm:text-center  md:mx-auto md:max-w-2xl lg:col-span-5 lg:text-left pt-0 grid ">
                
                 <div className=" text-center sm:m-auto m-autofont-bold tracking-tight lg:text-4xl text-4xl lg:mb-0 mb-4  w-auto grid lg:grid-cols-2 sm:grid-cols-0 gap-x- ">
@@ -85,7 +87,7 @@ export default function Home() {
                   </div> 
                  
                  
-              <p className="mt-0 ml-4 text-center lg:text-left text-base text-white sm:mt-4 sm:text-xl lg:text-lg xl:text-xl">
+              <p className="lg:mt-4 mt-4 lg:p-0 px-2 ml-0 lg:ml-4 text-center lg:text-left text-base text-white sm:text-xl lg:text-lg xl:text-xl">
               Telling the story of the displacement of African Americans in King County, WA for the purpose of documenting their pain and their suffering in order to establish a case for reparations. </p>
               <div className="mt-8 sm:mx-auto sm:max-w-lg sm:text-center lg:mx-0 lg:text-left">
               <div className="grid grid-cols-0 lg:grid-cols-3  lg:ml-4 flex items-center lg:justify-left  gap-x-6 gap-y-6 justify-center">
@@ -134,52 +136,21 @@ export default function Home() {
               </div>
             </div>
           </div>
-              <div className="bg-zinc-950 py-24 sm:py-32">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-5xl lg:text-center">
-          <p className="mt-2 text-3xl  text-white sm:text-4xl">
-              About the project          </p>
-          <p  className="mt-8 mb-8 text-lg leading-8 text-white bg-red">The King County Reparations Project takes viewers on an emotional journey through the Central District and South End, once the pulsating core of African American life in the Pacific Northwest, now a testament to the scars of urban upheaval. Produced at Cascade PBS, this documentary is the first chapter in a series dedicated to capturing the stories of Black individuals who have seen their homes, businesses, and cultural landmarks vanish.</p>
-       
-          <a href="/about" className="text-sm  font-bold leading-6 text-red-600 hover:text-green-600 ">
-                    Read more <span aria-hidden="true">→</span>
-                  </a>
+              <div className="bg-zinc-950 ">
       
-        </div>
-        <div class='justify-center text-center '>
-        <img class=' mt-12 h-20 animation-spin justify-center m-auto' src={square}/>
 
-        </div>
 
-        <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-22 lg:max-w-4xl">
-        <p className=" mb-4 text-2xl font-semibold  leading-8 text-[#FCDD09] ">
-          Scope of Project</p>
-        <p className=" mb-12 text-lg font-normal leading-8 text-white">
-          The project will focus on five main categories resulting in removal during an approximate timeline starting in the 1960’s until present day.</p>
-          <dl className="grid max-w-xl grid-cols-1  m-auto gap-x-8 gap-y-10 lg:max-w-none sm: justify-centerzm-auto lg:grid-cols-2 lg:gap-y-16">
-            {features.map((feature) => (
-              <div key={feature.name} className="relative">
-                <dt className="text-base font-semibold leading-7 text-white border border-red-500 py-3 px-2">
-                 
-                  {feature.name}
-                </dt>
-              </div>
-            ))}
-          </dl>
-          <p  className="mt-20 text-lg max-w-lg text-center m-auto leading-8 text-md bg-red-600 text-white bold">Important Notes:</p>
-              <ul className='text-white '>
-              <li className="white p-10">*This project is dealing with only a segment of the legacy & struggle of various movements and claims to reparations; this one centers on housing inequality in King County from around the 1950s to present day.</li>
-              <li>*We recognize the need for local and national dialogue and intend that this project will serve larger plans of action to cover what’s owed in totality of the effects of slavery, black codes, jim crow, mass incarceration.</li>
 
-              </ul>
-        </div>
 
-      </div>
-   
-  
+    <About />
+
+
+
+
+
     </div>
-    <div class='w-full    align-center justify-center vertical lg:grid lg:grid-cols-2 lg:gap-2'>
-      <div className='grid grid-cols-0 mt-0' >      <p class='text-white text-center font-bold max-w-lg lg:text-left text-center m-auto'>If you or your family were affected by home or business loss in the Central District, Seattle or other areas of King County, we would like to document your story.</p>
+    <div class='w-full  sm:px-2  align-center justify-center vertical lg:grid lg:grid-cols-2 lg:gap-2'>
+      <div className='grid grid-cols-0 mt-0' >      <p class='text-white text-center text-md px-2 lg:px-2 lg:text-md lg:pt-10 font-semibold max-w-lg lg:text-left text-center m-auto'>If you or your family were affected by home or business loss in the Central District, Seattle or other areas of King County, we would like to document your story.</p>
 </div>
 <div className="grid grid-cols-0 lg:grid-cols-3 mt-10 flex items-center lg:justify-left  gap-x-6 gap-y-6 justify-center">
             <a

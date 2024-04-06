@@ -8,32 +8,32 @@ const features = [
     
   {
     name: '1930s - 1960 Redlining, bank redlining',
-    description:
-      'Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.',
+    link:
+      'https://youtu.be/7z7UyAyMveY?si=blieydWeWgypQB-M',
     icon: CloudArrowUpIcon,
   },
   {
     name: ' 1990’s - 2000’s Subprime Lending late',
-    description:
-      'Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.',
+    link:
+      'https://youtu.be/9vU5bpM-IA0?si=Mz4YLYrtMdMM7A_d',
     icon: LockClosedIcon,
   },
   {
     name: '1980s - early 2000s Imminent Domain “Urban Renewal-Teen Dance Ordinance”',
-    description:
-      'Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.',
+    link:
+      'https://youtu.be/OdZNKr_KSmI?si=2oDfmD3wUeaS11XH.',
     icon: ArrowPathIcon,
   },
   {
     name: 'Weed & Seed - Abatement Laws',
-    description:
-      'Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.',
+    link:
+      'https://youtu.be/gHIXFvC4A8A?si=MO3o-Zp2C70GnY_D',
     icon: FingerPrintIcon,
   },
   {
     name: 'Regressive Tax Policy in State of WA  ',
-    description:
-      'Results in an unfair burden on the poor & people of moderate income who can’t keep their property due to rising property taxes    ',
+    link:
+      'https://youtu.be/x-x7E4aLr4w?si=a_FsHBNM7qcey5Y5',
     icon: FingerPrintIcon,
   },
 ]
@@ -46,8 +46,8 @@ export default function About() {
     <div>
          <div className="bg-zinc-950 px-5 py-24 sm:py-32 lg:px-8">
                 <div className="mx-auto max-w-4xl text-center">
-                  <h2 className="text-4xl  text-white sm:text-6xl">About KCRP</h2>
-                  <p  className="mt-24 text-lg leading-8 text-white">The King County Reparations Project takes viewers on an emotional journey through the Central District and South End, once the pulsating core of African American life in the Pacific Northwest, now a testament to the scars of urban upheaval. Produced at Cascade PBS, this documentary is the first chapter in a series dedicated to capturing the stories of Black individuals who have seen their homes, businesses, and cultural landmarks vanish.</p>
+                  <h2 className="text-4xl  text-white lg:text-5xl">About KCRP</h2>
+                  <p  className="mt-16 text-lg leading-8 text-white">The King County Reparations Project takes viewers on an emotional journey through the Central District and South End, once the pulsating core of African American life in the Pacific Northwest, now a testament to the scars of urban upheaval. Produced at Cascade PBS, this documentary is the first chapter in a series dedicated to capturing the stories of Black individuals who have seen their homes, businesses, and cultural landmarks vanish.</p>
 
 
                   <p className="mt-8 text-lg leading-8 text-white">Spanning from the 1950s to the present day, the King County Reparations Project delves into the harrowing impacts of redlining, subprime lending, eminent domain, and other systemic barriers that facilitated the exodus of Black residents. Through heartfelt interviews and historical retrospectives, the film sheds light on the economic, social, and political forces that reshaped and gentrified  culturally vibrant neighborhoods into fragmented echoes of their past.
@@ -62,15 +62,16 @@ export default function About() {
                     
                         <p className=" mb-4 text-3xl text-[#FCDD09]  font-semibold leading-8 ">
                           Scope of Project</p>
-                        <p className=" mb-12 text-lg leading-8 text-white ">
+                        <p className=" mb-12 text-md leading-8 text-white ">
                           The project will focus on five main categories resulting in removal during an approximate timeline starting in the 1960’s until present day.</p>
                           <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none sm: justify-centerzm-auto lg:grid-cols-2 lg:gap-y-16">
                             {features.map((feature) => (
                               <div key={feature.name} className="relative">
-                                <dt className="text-base font-semibold leading-7 text-white border border-red-500 py-3 px-2">
+                                <dt className="text-base font-semibold leading-7 text-white border border-red-500 mb-4 py-3 px-2">
                                 
                                   {feature.name}
                                 </dt>
+                                <a id="watchvid" href={feature.link} target="_blank" class=' text-white hover:text-red-600  '>Watch Video <span aria-hidden="true" class='text-red-600'>→</span></a>
                               </div>
                             ))}
                           </dl>
