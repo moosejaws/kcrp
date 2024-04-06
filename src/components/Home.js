@@ -136,7 +136,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-              <div className="bg-zinc-950">
+              <div className="bg-zinc-950 mt-24 lg:mt-0">
       
 
 
