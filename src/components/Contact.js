@@ -1,22 +1,22 @@
 export default function Contact () {
     return (
         
-      <div className="bg-zinc-950 px-6 py-24 sm:py-32 lg:px-8">
+      <div className="bg-zinc-950 py-24 sm:py-32 lg:px-8">
                 
                 
                 <div className="mx-auto max-w-4xl text-center ">
                   <h2 className="text-4xl  text-white sm:text-6xl">Contact us</h2>
 
-                  <div class='text-white lg:text-2xl text-md lg:mt-24 mt-20'>
-                    <p><span class='text-green-500'>Email: </span>kingco.reparationsproject@gmail.com</p>
+                  <div class='text-white px-4 text-lg leading-8 lg:text-2xl text-md lg:mt-24 mt-20'>
+                    <p><span class='text-green-500 lg:text-2xl text-2xl'>Email: </span>kingco.reparationsproject@gmail.com</p>
                   </div>
 
 
 
 
-                  <div class='w-full    align-center justify-center vertical lg:gap-2 mt-12'>
+                  <div class='w-full px-4   align-center justify-center vertical lg:gap-2 mt-12'>
                       <div className='grid grid-cols-0 mt-0' >      <p class='text-white text-center font-regular
-                       text-sm lg:text-lg text-center m-auto '>If you or your family were affected by home or business loss in the Central District, Seattle or other areas of King County, we would like to document your story.</p>
+                       text-md lg:text-lg text-center m-auto '>If you or your family were affected by home or business loss in the Central District, Seattle or other areas of King County, we would like to document your story.</p>
                 </div>
                 <div className="grid grid-cols-0 lg:grid-cols-3 mt-10 flex items-center lg:justify-left  gap-x-6 gap-y-6 justify-center">
                   <a
