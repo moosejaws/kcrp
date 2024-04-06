@@ -129,7 +129,7 @@ export default function Home() {
                
                 <rect x={118} width={404} height={784} fill="url(#4f4f415c-a0e9-44c2-9601-6ded5a34a13e)" />
               </svg>
-              <div className="relative mx-auto w-full rounded-lg   shadow-lg lg:max-w-md ">
+              <div className="relative mx-auto w-full rounded-lg lg:max-w-md ">
                
                   <span className="sr-only">Watch our video to learn more</span>
                   <iframe id="vid" class='lg:mb-24  mb-0 mt-20 m-auto  object-fit' src="https://www.youtube.com/embed/2e5BQZ5ChQw?si=U3rKLc6yuEx7-_V-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -142,7 +142,7 @@ export default function Home() {
 
 
 
-    <About />
+                     <About />
 
 
 
