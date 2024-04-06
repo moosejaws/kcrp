@@ -94,21 +94,21 @@ export default function Home() {
             <a
               href="https://forms.gle/DpUVMJh9qgK9pLBr9"
               target='_blank'
-              className="rounded-sm hover:bg-[#FCDD09]  px-3.5 py-3.5 lg:py-2  border-2 border-inside border-[#FCDD09]  text-center lg:text-xs text-xs font-semibold text-white shadow-sm   hover:text-zinc-950 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              className="rounded-sm hover:bg-[#FCDD09]  px-3.5 py-3.5 lg:py-2  border-2 border-inside border-[#FCDD09]  text-center lg:text-xs text-xs font-semibold text-white    hover:text-zinc-950 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
              INTEREST FORM
             </a>
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSd1TQP1Yant_6o30MoEjhuKnXtkGWflcgOqwpd3So7h1-aMgw/viewform"
               target='_blank'
-              className=" text-center rounded-sm bg-zinc-950 px-3.5 py-3 lg:py-2 border-2 border-inside border-red-600 lg:text-xs text-xs font-semibold text-white shadow-sm hover:bg-red-600 transition duration-150 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              className=" text-center rounded-sm bg-zinc-950 px-3.5 py-3 lg:py-2 border-2 border-inside border-red-600 lg:text-xs text-xs font-semibold text-white  hover:bg-red-600 transition duration-150 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
              PARTICIPATION FORM
             </a>
             <a
               href="https://donorbox.org/king-county-reparations-project?default_interval=o"
               target='_blank'
-              className=" text-center rounded-sm bg-zinc-950 px-3.5 py-3.5 lg:py-2 lg:py-2 border-2 border-inside border-green-600 lg:text-xs text-xs font-semibold text-white shadow-sm hover:bg-green-600 transition duration-150 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              className=" text-center rounded-sm bg-zinc-950 px-3.5 py-3.5 lg:py-2 lg:py-2 border-2 border-inside border-green-600 lg:text-xs text-xs font-semibold text-white  hover:bg-green-600 transition duration-150 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
              MAKE A DONATION
             </a>
@@ -156,7 +156,7 @@ export default function Home() {
             <a
               href="https://forms.gle/DpUVMJh9qgK9pLBr9"
               target='_blank'
-              className="rounded-sm hover:bg-[#FCDD09]  px-3.5 py-3.5 lg:py-4  border-2 border-inside border-[#FCDD09]  text-center lg:text-xs text-xs font-semibold text-white shadow-sm   hover:text-zinc-950 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              className="rounded-sm hover:bg-[#FCDD09]  px-3.5 py-3.5 lg:py-4  border-2 border-inside border-[#FCDD09]  text-center lg:text-xs text-xs font-semibold text-white   hover:text-zinc-950 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
              INTEREST FORM     
             </a>
@@ -170,7 +170,7 @@ export default function Home() {
             <a
               href="https://donorbox.org/king-county-reparations-project?default_interval=o"
               target='_blank'
-              className=" text-center rounded-sm bg-zinc-950 px-3.5 py-3.5 lg:py-4 lg:py-2 border-2 border-inside border-green-600 lg:text-xs text-xs font-semibold text-white shadow-sm hover:bg-green-600 transition duration-150 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              className=" text-center rounded-sm bg-zinc-950 px-3.5 py-3.5 lg:py-4 lg:py-2 border-2 border-inside border-green-600 lg:text-xs text-xs font-semibold text-white hover:bg-green-600 transition duration-150 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
              MAKE A DONATION
             </a>
