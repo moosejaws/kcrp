@@ -150,7 +150,7 @@ export default function Home() {
 
     </div>
     <div class='w-full  sm:px-2  align-center justify-center vertical lg:grid lg:grid-cols-2 lg:gap-2'>
-      <div className='grid grid-cols-0 mt-0' >      <p class='text-white text-center text-sm px-2 lg:px-2 lg:text-md lg:pt-10 pt-0 font-semibold max-w-lg lg:text-left text-center m-auto'>If you or your family were affected by home or business loss in the Central District, Seattle or other areas of King County, we would like to document your story.</p>
+      <div className='grid grid-cols-0 mt-0' >      <p class='text-white text-center text-md px-2 px-4 lg:px-2 lg:text-md lg:pt-10 pt-0 font-semibold max-w-lg lg:text-left text-center m-auto'>If you or your family were affected by home or business loss in the Central District, Seattle or other areas of King County, we would like to document your story.</p>
 </div>
 <div className="grid grid-cols-0 lg:grid-cols-3 mt-10 flex items-center lg:justify-left  gap-x-6 gap-y-6 justify-center">
             <a

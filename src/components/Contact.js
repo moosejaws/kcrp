@@ -8,15 +8,14 @@ export default function Contact () {
                   <h2 className="text-4xl  text-white lg:text-5xl">Contact us</h2>
 
                   <div class='text-white px-4 text-lg leading-8 lg:text-xl text-md lg:mt-24 mt-14'>
-                    <p><span class='text-green-500 lg:text-xl text-2xl'>Email: </span>kingco.reparationsproject@gmail.com</p>
+                    <p><span class='text-green-500 '>Email: </span>kingco.reparationsproject@gmail.com</p>
                   </div>
 
 
 
 
                   <div class='w-full px-4   align-center justify-center vertical lg:gap-2 mt-12'>
-                      <div className='grid grid-cols-0 mt-0' >      <p class='text-white text-center font-regular
-                       text-md lg:text-md text-center m-auto  lg:px-4'>If you or your family were affected by home or business loss in the Central District, Seattle or other areas of King County, we would like to document your story.</p>
+                      <div className='grid grid-cols-0 mt-0' >      <p class='text-white text-center text-md px-2 px-4 lg:px-2 lg:text-md lg:pt-10 pt-0 font-semibold max-w-lg lg:text-left text-center m-auto'>If you or your family were affected by home or business loss in the Central District, Seattle or other areas of King County, we would like to document your story.</p>
                 </div>
                 <div className="grid grid-cols-0 lg:grid-cols-3 mt-10 flex items-center lg:justify-left  gap-x-6 gap-y-6 justify-center">
                   <a

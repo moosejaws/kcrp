@@ -54,15 +54,15 @@ export default function About() {
 
                   As Seattle grapples with its dwindling African-American population, the film calls for a local and national dialogue on reparations, aiming to address the cumulative effects of slavery, black codes, Jim Crow laws, housing inequality and mass incarceration.
                   </p>
-                  <img class=' mt-12 h-20 animation-spin justify-center m-auto' src={square}/>
+                  <img class=' mt-24 h-20 animate-spin justify-center m-auto' src={square}/>
 
 
                 </div>
-                  <div className="mx-auto mt-16 max-w-4xl sm:mt-20 lg:mt-22 lg:max-w-4xl">
+                  <div className="mx-auto mt-20 max-w-4xl sm:mt-20 lg:mt-22 lg:max-w-4xl">
                     
-                        <p className=" mb-4 text-3xl text-[#FCDD09]  font-semibold leading-8 ">
+                        <p id="poppins" className=" mb-4 text-2xl text-[#FCDD09]   font-semibold leading-8 ">
                           Scope of Project</p>
-                        <p className=" mb-12 text-md leading-8 text-white ">
+                        <p className=" mb-12 text-md lg:px-8 leading-8 text-white ">
                           The project will focus on five main categories resulting in removal during an approximate timeline starting in the 1960’s until present day.</p>
                           <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none sm: justify-centerzm-auto lg:grid-cols-2 lg:gap-y-16">
                             {features.map((feature) => (
@@ -88,7 +88,6 @@ export default function About() {
 
                 <div>
                
-
 
 
                 </div>
