@@ -87,7 +87,7 @@ export default function Home() {
                   </div> 
                  
                  
-              <p className="lg:mt-4 mt-4 lg:p-0 px-2 ml-0 lg:ml-4 text-center lg:text-left text-base text-white sm:text-xl lg:text-lg ">
+              <p className="lg:mt-4 mt-4 lg:p-0 px-4 lg:px-2 ml-0 lg:ml-4 text-center lg:text-left text-base text-white sm:text-xl lg:text-lg ">
               Telling the story of the displacement of African Americans in King County, WA for the purpose of documenting their pain and their suffering in order to establish a case for reparations. </p>
               <div className="mt-8 sm:mx-auto sm:max-w-lg sm:text-center lg:mx-0 lg:text-left">
               <div className="grid grid-cols-0 md:grid-cols-3  lg:ml-4 flex items-center lg:justify-left  gap-x-6 gap-y-6 justify-center">

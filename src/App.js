@@ -5,10 +5,11 @@ import Home from './components/Home'
 import About from './components/About'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import Resources from './components/Resources';
 
 import {
   BrowserRouter as Router,
-  Routes, Route, Link
+  Routes, Route
 } from "react-router-dom";
 
 
@@ -22,9 +23,11 @@ export default function App() {
                 <Navigation />
           
                 <Routes>
-                  <Route path='/' element={<Home/>} />
-                  <Route path='/about' element={<About/>} />
-                  <Route path='/contact' element={<Contact/>} />
+                  <Route path='/' element={<Home />} />
+                  <Route path='/about' element={<About />} />
+                  <Route path='/resources' element={<Resources />} />
+
+                  <Route path='/contact' element={<Contact />} />
                 </Routes>
             <Footer />
             </Router>

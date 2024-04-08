@@ -1,4 +1,4 @@
-export default function Contact () {
+export default function Contact() {
     return (
         
       <div className="bg-zinc-950 py-24 sm:py-32 lg:px-8">
