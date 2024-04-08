@@ -149,7 +149,7 @@ export default function Home() {
 
 
     </div>
-    <div class='w-full px-4   align-center justify-center vertical  m-auto lg:max-w-4xl lg:gap-2 mt-12'>
+    <div class='w-full px-4   align-center justify-center vertical  m-auto lg:max-w-4xl lg:gap-2 mt-1'>
                       <div className='grid grid-cols-0 mt-0' >      <p class='text-white text-center font-semibold text-md px-2 px-4 lg:px-2 lg:text-md  text-center m-auto'>If you or your family were affected by home or business loss in the Central District, Seattle or other areas of King County, we would like to document your story.</p>
                 </div>
                 <div className="grid grid-cols-0 md:grid-cols-3 mt-10 flex items-center lg:justify-left  gap-x-6 gap-y-6 justify-center">

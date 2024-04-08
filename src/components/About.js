@@ -1,6 +1,7 @@
 import { ArrowPathIcon, CloudArrowUpIcon, FingerPrintIcon, LockClosedIcon } from '@heroicons/react/24/outline'
 import square from '../square.png'
 import Team from './Team'
+import Blockquote from './BlockQuote'
 
 const features = [
     
@@ -54,11 +55,34 @@ export default function About() {
 
                   As Seattle grapples with its dwindling African-American population, the film calls for a local and national dialogue on reparations, aiming to address the cumulative effects of slavery, black codes, Jim Crow laws, housing inequality and mass incarceration.
                   </p>
+
+                  <div>
+
+
+                  </div>
+
+                  <div>
+                
+                </div>
+
+
+
+
+
+
                   <img class=' mt-24 h-20 animate-spin justify-center m-auto' src={square}/>
 
 
                 </div>
-                  <div className="mx-auto mt-20 max-w-4xl sm:mt-20 lg:mt-22 lg:max-w-4xl">
+
+          
+
+
+
+
+
+
+                  <div className="mx-auto mb-20 mt-18 max-w-4xl sm:mt-20 lg:mt-22 lg:max-w-4xl">
                     
                         <p id="poppins" className=" mb-4 text-2xl text-[#FCDD09]   font-regular leading-8 ">
                           Scope of Project</p>
@@ -77,8 +101,11 @@ export default function About() {
                           </dl>
                           <div class='justify-center text-center '>
 
+                          <Blockquote />
+
+
                            </div>
-                          <p  className="mt-20 text-lg max-w-4xl text-center m-auto leading-8 text-md bg-red-600 text-white bold">Important Notes:</p>
+                          <p  className="mt-10  text-lg max-w-4xl text-center m-auto leading-8 text-md bg-red-600 text-white bold">Important Notes:</p>
                               <ul className='text-white '>
                               <li className="white p-2 mt-6 max-w-4xl">*This project is dealing with only a segment of the legacy & struggle of various movements and claims to reparations; this one centers on housing inequality in King County from around the 1950s to present day.</li>
                               <li className="white p-2 max-w-4xl">*We recognize the need for local and national dialogue and intend that this project will serve larger plans of action to cover what’s owed in totality of the effects of slavery, black codes, jim crow, mass incarceration.</li>
