@@ -74,7 +74,7 @@ export default function Home() {
       <div className="relative pb-16 pt-0 sm:pb-24 lg:pb-20">
   
 
-        <main className="mx-auto mt-16 max-w-7xl px-2 sm:mt-16 lg:mt-32">
+        <main className="mx-auto mt-16 max-w-6xl px-2 sm:mt-16 lg:mt-32">
           <div className="lg:grid lg:grid-cols-12 lg:gap-28 lg:ml-4">
             <div className="sm:text-center  md:mx-auto md:max-w-2xl lg:col-span-5 lg:text-left pt-0 grid ">
                
@@ -87,10 +87,10 @@ export default function Home() {
                   </div> 
                  
                  
-              <p className="lg:mt-4 mt-4 lg:p-0 px-2 ml-0 lg:ml-4 text-center lg:text-left text-base text-white sm:text-xl lg:text-lg xl:text-xl">
+              <p className="lg:mt-4 mt-4 lg:p-0 px-2 ml-0 lg:ml-4 text-center lg:text-left text-base text-white sm:text-xl lg:text-lg ">
               Telling the story of the displacement of African Americans in King County, WA for the purpose of documenting their pain and their suffering in order to establish a case for reparations. </p>
               <div className="mt-8 sm:mx-auto sm:max-w-lg sm:text-center lg:mx-0 lg:text-left">
-              <div className="grid grid-cols-0 lg:grid-cols-3  lg:ml-4 flex items-center lg:justify-left  gap-x-6 gap-y-6 justify-center">
+              <div className="grid grid-cols-0 md:grid-cols-3  lg:ml-4 flex items-center lg:justify-left  gap-x-6 gap-y-6 justify-center">
             <a
               href="https://forms.gle/DpUVMJh9qgK9pLBr9"
               target='_blank'
@@ -101,14 +101,14 @@ export default function Home() {
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSd1TQP1Yant_6o30MoEjhuKnXtkGWflcgOqwpd3So7h1-aMgw/viewform"
               target='_blank'
-              className=" text-center rounded-sm bg-zinc-950 px-3.5 py-3 lg:py-2 border-2 border-inside border-red-600 lg:text-xs text-xs font-semibold text-white shadow-sm hover:bg-red-600 transition duration-150 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              className=" text-center rounded-sm bg-zinc-950 px-3.5 py-3 md:py-2 border-2 border-inside border-red-600 lg:text-xs text-xs font-semibold text-white shadow-sm hover:bg-red-600 transition duration-150 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
              PARTICIPATION FORM
             </a>
             <a
               href="https://donorbox.org/king-county-reparations-project?default_interval=o"
               target='_blank'
-              className=" text-center rounded-sm bg-zinc-950 px-3.5 py-3.5 lg:py-2 lg:py-2 border-2 border-inside border-green-600 lg:text-xs text-xs font-semibold text-white shadow-sm hover:bg-green-600 transition duration-150 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              className=" text-center rounded-sm bg-zinc-950 px-3.5 py-3.5 lg:py-2  border-2 border-inside border-green-600 lg:text-xs text-xs font-semibold text-white shadow-sm hover:bg-green-600 transition duration-150 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
              MAKE A DONATION
             </a>
@@ -149,36 +149,35 @@ export default function Home() {
 
 
     </div>
-    <div class='w-full  sm:px-2  align-center justify-center vertical lg:grid lg:grid-cols-2 lg:gap-2'>
-      <div className='grid grid-cols-0 mt-0' >      <p class='text-white text-center text-md px-2 px-4 lg:px-2 lg:text-md lg:pt-10 pt-0 font-semibold max-w-lg lg:text-left text-center m-auto'>If you or your family were affected by home or business loss in the Central District, Seattle or other areas of King County, we would like to document your story.</p>
-</div>
-<div className="grid grid-cols-0 lg:grid-cols-3 mt-10 flex items-center lg:justify-left  gap-x-6 gap-y-6 justify-center">
-            <a
-              href="https://forms.gle/DpUVMJh9qgK9pLBr9"
-              target='_blank'
-              className="rounded-sm hover:bg-[#FCDD09]  px-3.5 py-3.5 lg:py-4  border-2 border-inside border-[#FCDD09]  text-center lg:text-xs text-xs font-semibold text-white shadow-sm   hover:text-zinc-950 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-            >
-             INTEREST FORM     
-            </a>
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSd1TQP1Yant_6o30MoEjhuKnXtkGWflcgOqwpd3So7h1-aMgw/viewform"
-              target='_blank'
-              className=" text-center rounded-sm bg-zinc-950 px-3.5 py-3 lg:py-2 border-2 border-inside border-red-600 lg:text-xs text-xs font-semibold text-white shadow-sm hover:bg-red-600 transition duration-150 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-            >
-             PARTICIPATION FORM
-            </a>
-            <a
-              href="https://donorbox.org/king-county-reparations-project?default_interval=o"
-              target='_blank'
-              className=" text-center rounded-sm bg-zinc-950 px-3.5 py-3.5 lg:py-4 lg:py-2 border-2 border-inside border-green-600 lg:text-xs text-xs font-semibold text-white shadow-sm hover:bg-green-600 transition duration-150 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-            >
-             MAKE A DONATION
-            </a>
+    <div class='w-full px-4   align-center justify-center vertical  m-auto lg:max-w-4xl lg:gap-2 mt-12'>
+                      <div className='grid grid-cols-0 mt-0' >      <p class='text-white text-center font-semibold text-md px-2 px-4 lg:px-2 lg:text-md  text-center m-auto'>If you or your family were affected by home or business loss in the Central District, Seattle or other areas of King County, we would like to document your story.</p>
+                </div>
+                <div className="grid grid-cols-0 md:grid-cols-3 mt-10 flex items-center lg:justify-left  gap-x-6 gap-y-6 justify-center">
+                  <a
+                    href="https://forms.gle/DpUVMJh9qgK9pLBr9"
+                    target='_blank'
+                    className="rounded-sm hover:bg-[#FCDD09]  px-3.5 py-3.5 lg:py-4  border-2 border-inside border-[#FCDD09]  text-center lg:text-sm text-sm font-semibold text-white shadow-sm   hover:text-zinc-950 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                  >
+                  INTEREST FORM     
+                  </a>
+                  <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSd1TQP1Yant_6o30MoEjhuKnXtkGWflcgOqwpd3So7h1-aMgw/viewform"
+                    target='_blank'
+                    className=" text-center rounded-sm bg-zinc-950 px-3.5 py-3 lg:py-4 border-2 border-inside border-red-600 lg:text-sm text-sm font-semibold text-white shadow-sm hover:bg-red-600 transition duration-150 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                  >
+                  PARTICIPATION FORM
+                  </a>
+                  <a
+                    href="https://donorbox.org/king-county-reparations-project?default_interval=o"
+                    target='_blank'
+                    className=" text-center rounded-sm bg-zinc-950 px-3.5 py-3.5 lg:py-4 lg:py-2 border-2 border-inside border-green-600 lg:text-sm text-sm font-semibold text-white shadow-sm hover:bg-green-600 transition duration-150 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                  >
+                  MAKE A DONATION
+                  </a>
 
 
-          </div>  
-          </div>
-
+                </div>  
+                </div>
         </main>
       </div>
 

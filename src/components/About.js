@@ -44,9 +44,9 @@ const features = [
 export default function About() {
   return (
     <div>
-         <div className="bg-zinc-950 px-5 py-24 sm:py-32 lg:px-8">
+         <div className="bg-zinc-950 px-5 py-3  lg:px-8">
                 <div className="mx-auto max-w-4xl text-center">
-                  <h2 className="text-4xl  text-white lg:text-5xl">About KCRP</h2>
+                  <h2 className="text-4xl lg:mt-32 mt-20 text-white lg:text-5xl">About <span class='text-green-600'>The Project</span></h2>
                   <p  className="mt-16 text-lg leading-8 text-white">The King County Reparations Project takes viewers on an emotional journey through the Central District and South End, once the pulsating core of African American life in the Pacific Northwest, now a testament to the scars of urban upheaval. Produced at Cascade PBS, this documentary is the first chapter in a series dedicated to capturing the stories of Black individuals who have seen their homes, businesses, and cultural landmarks vanish.</p>
 
 
@@ -60,11 +60,11 @@ export default function About() {
                 </div>
                   <div className="mx-auto mt-20 max-w-4xl sm:mt-20 lg:mt-22 lg:max-w-4xl">
                     
-                        <p id="poppins" className=" mb-4 text-2xl text-[#FCDD09]   font-semibold leading-8 ">
+                        <p id="poppins" className=" mb-4 text-2xl text-[#FCDD09]   font-regular leading-8 ">
                           Scope of Project</p>
                         <p className=" mb-12 text-md lg:px-8 leading-8 text-white ">
                           The project will focus on five main categories resulting in removal during an approximate timeline starting in the 1960’s until present day.</p>
-                          <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none sm: justify-centerzm-auto lg:grid-cols-2 lg:gap-y-16">
+                          <dl className="grid max-w-xl grid-cols-1 text-center m-auto gap-x-8 gap-y-10 lg:max-w-none sm: justify-centerzm-auto lg:grid-cols-2 lg:gap-y-16">
                             {features.map((feature) => (
                               <div key={feature.name} className="relative">
                                 <dt className="text-base font-semibold leading-7 text-white border border-red-500 mb-4 py-3 px-2">
