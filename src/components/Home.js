@@ -53,6 +53,7 @@ export default function Home() {
 
   return (
     <div className="relative overflow-hidden  bg-gradient-to-br from-zinc-950 to-stone-950">
+    <p class="flex h-10 items-center justify-center bg-red-600 px-4 text-sm font-medium text-white sm:px-6 lg:px-8 ">June 20 <span class='text-black ml-2 mr-2'>|</span>  <span class='font-medium'>  Film Screening at Langston Hughes Performing Arts Center  </span>  <span class='text-black ml-2 mr-2'>|</span> Doors open at 6:00</p>
 
       
       <div className="hidden lg:absolute lg:inset-0 lg:block" >
@@ -150,6 +151,7 @@ export default function Home() {
 
     </div>
     <div class='w-full px-4   align-center justify-center vertical  m-auto lg:max-w-4xl lg:gap-2 mt-1'>
+
                       <div className='grid grid-cols-0 mt-0' >      <p class='text-white text-center font-semibold text-md px-2 px-4 lg:px-2 lg:text-md  text-center m-auto'>If you or your family were affected by home or business loss in the Central District, Seattle or other areas of King County, we would like to document your story.</p>
                 </div>
                 <div className="grid grid-cols-0 md:grid-cols-3 mt-10 flex items-center lg:justify-left  gap-x-6 gap-y-6 justify-center">
