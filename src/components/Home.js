@@ -53,7 +53,7 @@ export default function Home() {
 
   return (
     <div className="relative overflow-hidden  bg-gradient-to-br from-zinc-950 to-stone-950">
-    <p class="flex h-10 items-center justify-center lg:py-0 py-8 bg-red-600 px-4 text-xs font-semibold text-white px-6 lg:px-8 ">June 20 <span class='text-black ml-2 mr-2'>|</span>  <span class='font-medium'>  Film Screening at Langston Hughes Performing Arts Center  </span>  <span class='text-black ml-2 mr-2'>|</span> Doors open at 6:00</p>
+    <p class="flex h-10 items-center justify-center lg:py-0 py-8 bg-red-600 px-4 text-xs  lg:text-base text-white px-6 lg:px-8 tracking-wide">June 20 <span class='text-black ml-2 mr-2'>|</span>  <span class=''>  Film Screening at Langston Hughes Performing Arts Center  </span>  <span class='text-black ml-2 mr-2'>|</span> Doors open at 6:00</p>
 
       
       <div className="hidden lg:absolute lg:inset-0 lg:block" >

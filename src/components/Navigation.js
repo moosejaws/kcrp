@@ -27,14 +27,14 @@ export default function Navigation() {
    
       <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
         <div class="flex flex-shrink-0 items-center">
-            <h1  class="text-white text-4xl lg:text-2xl font-semibold"><span >K</span><span class="text-[#Fcdd09]">C</span><span class='text-[#da1218]' >R</span><span class="text-green-600">P</span></h1>
+            <h1  class="text-white text-4xl lg:text-3xl font-semibold"><span >K</span><span class="text-[#Fcdd09]">C</span><span class='text-[#da1218]' >R</span><span class="text-green-600">P</span></h1>
         </div>
 
         <div class="hidden  sm:ml-6 sm:block">
           <div class="flex space-x-4">
-            <a href="/" class="text-white px-3 py-2 border-2  border-zinc-950  hover:border-red-600  rounded-sm text-sm font-medium" aria-current="page">Home</a>
-            <a href="/about" class="text-white border-2 border-zinc-950  hover:border-red-600 rounded-sm px-3 py-2 text-sm font-medium">About the Project</a>
-            <a href="/contact" class="text-white border-2 border-zinc-950 hover:border-red-600  rounded-sm px-3 py-2 text-sm font-medium">Contact</a>
+            <a href="/" class="text-white px-3 py-2 border-2  border-zinc-950  hover:border-red-600  rounded-sm text-sm lg:text-base font-medium" aria-current="page">Home</a>
+            <a href="/about" class="text-white border-2 border-zinc-950  hover:border-red-600 rounded-sm px-3 py-2 text-sm lg:text-base font-medium">About the Project</a>
+            <a href="/contact" class="text-white border-2 border-zinc-950 hover:border-red-600  rounded-sm px-3 py-2 text-sm lg:text-base font-medium">Contact</a>
 
           </div>
         </div>
