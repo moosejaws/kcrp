@@ -54,9 +54,11 @@ export default function Home() {
   return (
     <div className="relative overflow-hidden  bg-gradient-to-br from-zinc-950 to-stone-950">
     <p class="flex h-10 items-center justify-center lg:py-0 py-8 bg-red-600 px-4 text-xs  lg:text-base text-white px-6 lg:px-8 tracking-wide">June 20 <span class='text-black ml-2 mr-2'>|</span>  <span class=''>  Film Screening at Langston Hughes Performing Arts Center  </span>  <span class='text-black ml-2 mr-2'>|</span> Doors open at 6:00</p>
+          
 
+          <div class="mt-16 lg:-mb-14"><a href="https://www.eventbrite.com/e/the-king-county-reparations-project-film-screening-panel-discussion-tickets-924687233407?aff=oddtdtcreator" target="_blank" rel="noreferrer" class="border-[2.5px]  border-solid text-white border-red-600 rounded-full mt-10  py-2.5 px-6 text-semibold text-xl  hover:border-green-600 hover:border-[2.5px] "><span className="font-bold"><span>R</span><span class="text-[#Fcdd09]">S</span><span class="text-[#da1218] ">V</span><span class="text-green-600" >P</span></span> for <span className="font-semibold">Screening</span></a></div>
       
-      <div className="hidden lg:absolute lg:inset-0 lg:block" >
+      <div className="" >
         <svg
           className="absolute left-1/2 top-0 -translate-y-8 translate-x-64 transform"
           width={640}
