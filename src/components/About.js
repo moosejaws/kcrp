@@ -45,7 +45,7 @@ const features = [
 export default function About() {
   return (
     <div>
-         <div className="bg-zinc-950 px-5 py-3  lg:px-8">
+         <div className="bg-zinc-950 px-5 lg:py-3 py-1 lg:px-8">
                 <div className="mx-auto max-w-4xl text-center">
                   <h2 className="text-4xl lg:mt-32 mt-20 text-white lg:text-5xl">About <span class='text-green-600'>The Project</span></h2>
                   <p  className="mt-16 text-lg leading-8 text-white">The King County Reparations Project takes viewers on an emotional journey through the Central District and South End, once the pulsating core of African American life in the Pacific Northwest, now a testament to the scars of urban upheaval. Produced at Cascade PBS, this documentary is the first chapter in a series dedicated to capturing the stories of Black individuals who have seen their homes, businesses, and cultural landmarks vanish.</p>

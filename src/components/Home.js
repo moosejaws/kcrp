@@ -7,8 +7,7 @@ import About from './About'
 
 
 const features = [
-    
-    
+  
     
   {
     name: '1930s - 1960 Redlining, bank redlining',
@@ -47,9 +46,6 @@ const features = [
 
 
 export default function Home() {
-
-  
-
 
   return (
     <div className="relative overflow-hidden  bg-gradient-to-br from-zinc-950 to-stone-950">
@@ -106,7 +102,7 @@ export default function Home() {
               target='_blank'
               className=" text-center rounded-sm bg-zinc-950 px-3.5 py-3 md:py-2 border-2 border-inside border-red-600 lg:text-xs text-xs font-semibold text-white shadow-sm hover:bg-red-600 transition duration-150 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
-             PARTICIPATION FORM
+             SHARE YOUR STORY
             </a>
             <a
               href="https://donorbox.org/king-county-reparations-project?default_interval=o"
@@ -169,7 +165,7 @@ export default function Home() {
                     target='_blank'
                     className=" text-center rounded-sm bg-zinc-950 px-3.5 py-3 lg:py-4 border-2 border-inside border-red-600 lg:text-sm text-sm font-semibold text-white shadow-sm hover:bg-red-600 transition duration-150 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                   >
-                  PARTICIPATION FORM
+                  SHARE YOUR STORY
                   </a>
                   <a
                     href="https://donorbox.org/king-county-reparations-project?default_interval=o"
