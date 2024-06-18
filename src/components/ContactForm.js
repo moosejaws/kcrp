@@ -89,10 +89,10 @@ export default function ContactForm() {
                 type="text"
                 placeholder="Full Name"
                 autoComplete="false"
-                className={`w-full px-4 py-3 border-2  rounded-md outline-none  focus:ring-4  ${
+                className={`w-full px-4 py-3 border-2  rounded-md outline-none    ${
                   errors.name
-                    ? "border-red-600 focus:border-red-600 ring-red-100"
-                    : "border-gray-300 focus:border-indigo-600 ring-indigo-100"
+                    ? "border-red-600"
+                    : "border-gray-300 "
                 }`}
                 {...register("name", {
                   required: "Full name is required",
@@ -116,10 +116,10 @@ export default function ContactForm() {
                 placeholder="Email Address"
                 name="email"
                 autoComplete="false"
-                className={`w-full px-4 py-3 border-2  rounded-md outline-none  focus:ring-4  ${
+                className={`w-full px-4 py-3 border-2  rounded-md outline-none    ${
                   errors.email
-                    ? "border-red-600 focus:border-red-600 ring-red-100"
-                    : "border-gray-300 focus:border-indigo-600 ring-indigo-100"
+                    ? "border-red-600 "
+                    : "border-gray-300 "
                 }`}
                 {...register("email", {
                   required: "Enter your email",
@@ -140,10 +140,10 @@ export default function ContactForm() {
               <textarea
                 name="message"
                 placeholder="Your Message"
-                className={`w-full px-4 py-3 border-2  rounded-md outline-none  h-36  focus:ring-4  ${
+                className={`w-full px-4 py-3 border-2  rounded-md outline-none  h-36    ${
                   errors.message
-                    ? "border-red-600 focus:border-red-600 ring-red-100"
-                    : "border-gray-300 focus:border-indigo-600 ring-indigo-100"
+                    ? "border-red-600"
+                    : "border-gray-300 "
                 }`}
                 {...register("message", { required: "Enter your Message" })}
               />
@@ -158,7 +158,7 @@ export default function ContactForm() {
             <button
               type="submit"
               ID="lexend"
-              className="w-full py-4 text-white text-lg transition-colors  transition-text bg-red-600 hover:bg-green-600 hover:text-black focus:outline-none focus:ring-offset-2 focus:ring focus:ring-indigo-200 px-7 umami--click--contact-submit">
+              className="w-full py-4 text-white text-lg transition-colors  transition-text bg-red-600 hover:bg-green-600 hover:text-black focus:outline-none focus:ring-offset-2  px-7 umami--click--contact-submit">
               {isSubmitting ? (
                 <svg
                   className="w-5 h-5 mx-auto text-white animate-spin"
