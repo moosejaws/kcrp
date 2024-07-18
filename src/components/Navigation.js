@@ -21,7 +21,7 @@ function classNames(...classes) {
 export default function Navigation() {
   return (
     <>
-       <nav class="bg-zinc-950  sticky top-0 z-50">
+       <nav class="bg-zinc-950 border-bottom border-red-600  border-2  sticky top-0 z-50">
   <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
     <div class="relative flex h-16 items-center justify-between">
    
