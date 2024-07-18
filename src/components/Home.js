@@ -49,6 +49,7 @@ export default function Home() {
 
   return (
     <div className="relative overflow-hidden  bg-gradient-to-br from-zinc-950 to-stone-950">
+    <p class="flex h-10 items-center justify-center lg:py-0 py-8 bg-red-600 px-4 text-xs  lg:text-base text-white px-6 lg:px-8 tracking-wide">Next Event: <span class=' font-semibold ml-2 mr-2'>  Issaquah Film Festival, August 4/5</span></p>
           
 
       
