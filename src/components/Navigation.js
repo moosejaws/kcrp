@@ -1,60 +1,88 @@
-import { Fragment } from 'react'
-import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
-import logo from '../logo.webp'
-
-
-const navigation = [
-  { name: 'Home', href: '/', current: true },
-  { name: 'About', href: '/about', current: false },
-  { name: 'See the Film', href: '/see-the-film', current: false },
-  { name: 'Events', href: '/events', current: false },  
-  { name: 'Resources', href: '/resources', current: false },
-
-  { name: 'Contact', href: '/contact', current: false },
-]
-
-function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
-}
+import { useState } from "react";
+import { Menu, X } from "lucide-react"; // Lucide icons for the hamburger and close button
 
 export default function Navigation() {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
-    <>
-       <nav class="bg-zinc-950 border-bottom border-red-600  border-2  sticky top-0 z-50">
-  <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-    <div class="relative flex h-16 items-center justify-between">
-   
-      <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-        <div class="flex flex-shrink-0 items-center">
-            <h1  class="text-white text-4xl lg:text-3xl font-semibold"><span >K</span><span class="text-[#Fcdd09]">C</span><span class='text-[#da1218]' >R</span><span class="text-green-600">P</span></h1>
-        </div>
-
-        <div class="hidden  sm:ml-6 sm:block">
-          <div class="flex space-x-4">
-            <a href="/" class="text-white px-3 py-2 border-2  border-zinc-950  hover:border-red-600  rounded-sm text-sm lg:text-base font-medium" aria-current="page">Home</a>
-            <a href="/about" class="text-white border-2 border-zinc-950  hover:border-red-600 rounded-sm px-3 py-2 text-sm lg:text-base font-medium">About the Project</a>
-            <a href="/contact" class="text-white border-2 border-zinc-950 hover:border-red-600  rounded-sm px-3 py-2 text-sm lg:text-base font-medium">Contact</a>
-
+    <nav className="bg-zinc-950 border-b border-red-600 border-2 sticky top-0 z-50">
+      <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+        <div className="relative flex h-16 items-center justify-between">
+          {/* Logo */}
+          <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+            <div className="flex flex-shrink-0 items-center">
+              <h1 className="text-white text-4xl lg:text-3xl font-semibold">
+                <span>K</span>
+                <span className="text-[#Fcdd09]">C</span>
+                <span className="text-[#da1218]">R</span>
+                <span className="text-green-600">P</span>
+              </h1>
+            </div>
           </div>
+
+          {/* Desktop Menu */}
+          <div className="hidden sm:ml-6 sm:block">
+            <div className="flex space-x-4">
+              <a
+                href="/"
+                className="text-white px-3 py-2 border-2 border-zinc-950 hover:border-red-600 rounded-sm text-sm lg:text-base font-medium"
+              >
+                Home
+              </a>
+              <a
+                href="/about"
+                className="text-white border-2 border-zinc-950 hover:border-red-600 rounded-sm px-3 py-2 text-sm lg:text-base font-medium"
+              >
+                About the Project
+              </a>
+              <a
+                href="/contact"
+                className="text-white border-2 border-zinc-950 hover:border-red-600 rounded-sm px-3 py-2 text-sm lg:text-base font-medium"
+              >
+                Contact
+              </a>
+            </div>
+          </div>
+
+          {/* Mobile Menu Button */}
+          <button
+            className="sm:hidden text-white"
+            onClick={() => setIsOpen(!isOpen)}
+          >
+            {isOpen ? <X size={28} /> : <Menu size={28} />}
+          </button>
         </div>
       </div>
-   
-    </div>
-  </div>
 
-  <div class="sm:hidden" id="mobile-menu">
-    <div class="space-y-2 px-2 pb-4 pt-2">
-      <a href="/" class="text-white border-2 px-3 py-2  border-zinc-950  hover:border-red-600 text-base w-full inline-block font-medium" >Home</a>
-      <a href="/about" class="text-white w-full inline-block border-2  border-zinc-950  hover:border-red-600 rounded-md px-3 py-2 text-base font-medium">About the Project</a>
-
-      <a href="/contact" class="text-white w-full  border-2   inline-block border-zinc-950 hover:border-red-600  rounded-md px-3 py-2 text-base font-medium">Contact</a>
-    </div>
-  </div>
-</nav>
-  </>
-  )
+      {/* Mobile Menu */}
+      {isOpen && (
+        <div className="sm:hidden">
+          <div className="space-y-2 px-2 pb-4 pt-2">
+            <a
+              href="/"
+              className="text-white border-2 px-3 py-2 border-zinc-950 hover:border-red-600 text-base w-full inline-block font-medium"
+            >
+              Home
+            </a>
+            <a
+              href="/about"
+              className="text-white w-full inline-block border-2 border-zinc-950 hover:border-red-600 rounded-md px-3 py-2 text-base font-medium"
+            >
+              About the Project
+            </a>
+            <a
+              href="/contact"
+              className="text-white w-full border-2 inline-block border-zinc-950 hover:border-red-600 rounded-md px-3 py-2 text-base font-medium"
+            >
+              Contact
+            </a>
+          </div>
+        </div>
+      )}
+    </nav>
+  );
 }
+
 
 
 
