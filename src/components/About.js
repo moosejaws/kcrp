@@ -70,7 +70,7 @@ export default function About() {
 
 
 
-                  <img class=' mt-14 mb-12 lg:mb-14 h-20 animate-spin justify-center m-auto' src={square}/>
+                  <img class=' mt-14 mb-16 lg:mb-16 h-20 animate-spin justify-center m-auto' src={square}/>
 
 
                 </div>
@@ -84,9 +84,9 @@ export default function About() {
 
                   <div className="mx-auto mb-20 max-w-4xl lg:max-w-4xl">
                     
-                        <p id="poppins" className=" mb-4 text-2xl text-[#FCDD09]   font-regular leading-8 ">
+                        <p id="poppins" className=" mb-6 mt-6 text-4xl text-[#FCDD09]   font-regular  ">
                           Scope of Project</p>
-                        <p className=" mb-12 text-md lg:px-8 leading-8 text-white ">
+                        <p className=" mb-12 text-lg lg:px-8 leading-8 text-white ">
                           The project will focus on five main categories resulting in removal during an approximate timeline starting in the 1960’s until present day.</p>
                           <dl className="grid max-w-xl grid-cols-1 text-center m-auto gap-x-8 gap-y-10 lg:max-w-none sm: justify-centerzm-auto lg:grid-cols-2 lg:gap-y-16">
                             {features.map((feature) => (
