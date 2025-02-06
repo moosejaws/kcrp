@@ -70,7 +70,7 @@ export default function About() {
 
 
 
-                  <img class=' mt-24 h-20 animate-spin justify-center m-auto' src={square}/>
+                  <img class=' mt-14 mb-12 lg:mb-14 h-20 animate-spin justify-center m-auto' src={square}/>
 
 
                 </div>
@@ -82,7 +82,7 @@ export default function About() {
 
 
 
-                  <div className="mx-auto mb-20 mt-18 max-w-4xl sm:mt-20 lg:mt-22 lg:max-w-4xl">
+                  <div className="mx-auto mb-20 max-w-4xl lg:max-w-4xl">
                     
                         <p id="poppins" className=" mb-4 text-2xl text-[#FCDD09]   font-regular leading-8 ">
                           Scope of Project</p>
