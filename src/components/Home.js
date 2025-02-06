@@ -129,11 +129,11 @@ export default function Home() {
               <div className="relative mx-auto w-full rounded-lg lg:max-w-md ">
                
                   <span className="sr-only">Watch our video to learn more</span>
-                  <iframe id="vid" class='lg:mb-24   m-auto  object-fit' src="https://www.youtube.com/embed/2e5BQZ5ChQw?si=U3rKLc6yuEx7-_V-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  <iframe id="vid" class='lg:mb-14  mb-0  m-auto  object-fit' src="https://www.youtube.com/embed/2e5BQZ5ChQw?si=U3rKLc6yuEx7-_V-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
               </div>
             </div>
           </div>
-              <div className="bg-zinc-950 mt-24 lg:mt-0">
+              <div className="bg-zinc-950 ">
       
 
 
